@@ -14,6 +14,7 @@
 		39F0D5472C2B3144008CA8E3 /* Final_Project_House_C_Team_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F0D5462C2B3144008CA8E3 /* Final_Project_House_C_Team_5Tests.swift */; };
 		39F0D5512C2B3144008CA8E3 /* Final_Project_House_C_Team_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F0D5502C2B3144008CA8E3 /* Final_Project_House_C_Team_5UITests.swift */; };
 		39F0D5532C2B3144008CA8E3 /* Final_Project_House_C_Team_5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F0D5522C2B3144008CA8E3 /* Final_Project_House_C_Team_5UITestsLaunchTests.swift */; };
+		39F0D5602C2B33B9008CA8E3 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F0D55F2C2B33B9008CA8E3 /* SignUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		39F0D54C2C2B3144008CA8E3 /* Final Project House C Team 5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project House C Team 5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F0D5502C2B3144008CA8E3 /* Final_Project_House_C_Team_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project_House_C_Team_5UITests.swift; sourceTree = "<group>"; };
 		39F0D5522C2B3144008CA8E3 /* Final_Project_House_C_Team_5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project_House_C_Team_5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39F0D55F2C2B33B9008CA8E3 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				39F0D5352C2B3141008CA8E3 /* Final_Project_House_C_Team_5App.swift */,
 				39F0D5372C2B3141008CA8E3 /* ContentView.swift */,
+				39F0D55F2C2B33B9008CA8E3 /* SignUp.swift */,
 				39F0D5392C2B3144008CA8E3 /* Assets.xcassets */,
 				39F0D53B2C2B3144008CA8E3 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39F0D5382C2B3141008CA8E3 /* ContentView.swift in Sources */,
+				39F0D5602C2B33B9008CA8E3 /* SignUp.swift in Sources */,
 				39F0D5362C2B3141008CA8E3 /* Final_Project_House_C_Team_5App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
