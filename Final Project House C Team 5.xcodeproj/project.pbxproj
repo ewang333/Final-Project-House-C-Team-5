@@ -16,6 +16,10 @@
 		39F0D5532C2B3144008CA8E3 /* Final_Project_House_C_Team_5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F0D5522C2B3144008CA8E3 /* Final_Project_House_C_Team_5UITestsLaunchTests.swift */; };
 		39F0D5602C2B33B9008CA8E3 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F0D55F2C2B33B9008CA8E3 /* SignUp.swift */; };
 		39F0D5622C2C5B94008CA8E3 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F0D5612C2C5B94008CA8E3 /* Home.swift */; };
+		B48DC4132C2C627F005719A3 /* HealthJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48DC4122C2C627F005719A3 /* HealthJournalView.swift */; };
+		B48DC4152C2C62AB005719A3 /* GoalSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48DC4142C2C62AB005719A3 /* GoalSettingView.swift */; };
+		B48DC4172C2C62BA005719A3 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48DC4162C2C62BA005719A3 /* CalculatorView.swift */; };
+		B48DC4192C2C62C7005719A3 /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48DC4182C2C62C7005719A3 /* ResourcesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		39F0D5522C2B3144008CA8E3 /* Final_Project_House_C_Team_5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project_House_C_Team_5UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		39F0D55F2C2B33B9008CA8E3 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		39F0D5612C2C5B94008CA8E3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B48DC4122C2C627F005719A3 /* HealthJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthJournalView.swift; sourceTree = "<group>"; };
+		B48DC4142C2C62AB005719A3 /* GoalSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalSettingView.swift; sourceTree = "<group>"; };
+		B48DC4162C2C62BA005719A3 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		B48DC4182C2C62C7005719A3 /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				39F0D5372C2B3141008CA8E3 /* ContentView.swift */,
 				39F0D55F2C2B33B9008CA8E3 /* SignUp.swift */,
 				39F0D5612C2C5B94008CA8E3 /* Home.swift */,
+				B48DC4122C2C627F005719A3 /* HealthJournalView.swift */,
+				B48DC4142C2C62AB005719A3 /* GoalSettingView.swift */,
+				B48DC4162C2C62BA005719A3 /* CalculatorView.swift */,
+				B48DC4182C2C62C7005719A3 /* ResourcesView.swift */,
 				39F0D5392C2B3144008CA8E3 /* Assets.xcassets */,
 				39F0D53B2C2B3144008CA8E3 /* Preview Content */,
 			);
@@ -264,8 +276,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				39F0D5382C2B3141008CA8E3 /* ContentView.swift in Sources */,
+				B48DC4172C2C62BA005719A3 /* CalculatorView.swift in Sources */,
 				39F0D5602C2B33B9008CA8E3 /* SignUp.swift in Sources */,
+				B48DC4132C2C627F005719A3 /* HealthJournalView.swift in Sources */,
+				B48DC4192C2C62C7005719A3 /* ResourcesView.swift in Sources */,
 				39F0D5622C2C5B94008CA8E3 /* Home.swift in Sources */,
+				B48DC4152C2C62AB005719A3 /* GoalSettingView.swift in Sources */,
 				39F0D5362C2B3141008CA8E3 /* Final_Project_House_C_Team_5App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
