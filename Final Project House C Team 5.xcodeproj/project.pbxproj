@@ -15,6 +15,7 @@
 		39F0D5512C2B3144008CA8E3 /* Final_Project_House_C_Team_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F0D5502C2B3144008CA8E3 /* Final_Project_House_C_Team_5UITests.swift */; };
 		39F0D5532C2B3144008CA8E3 /* Final_Project_House_C_Team_5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F0D5522C2B3144008CA8E3 /* Final_Project_House_C_Team_5UITestsLaunchTests.swift */; };
 		39F0D5602C2B33B9008CA8E3 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F0D55F2C2B33B9008CA8E3 /* SignUp.swift */; };
+		39F0D5622C2C5B94008CA8E3 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F0D5612C2C5B94008CA8E3 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		39F0D5502C2B3144008CA8E3 /* Final_Project_House_C_Team_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project_House_C_Team_5UITests.swift; sourceTree = "<group>"; };
 		39F0D5522C2B3144008CA8E3 /* Final_Project_House_C_Team_5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project_House_C_Team_5UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		39F0D55F2C2B33B9008CA8E3 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		39F0D5612C2C5B94008CA8E3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				39F0D5352C2B3141008CA8E3 /* Final_Project_House_C_Team_5App.swift */,
 				39F0D5372C2B3141008CA8E3 /* ContentView.swift */,
 				39F0D55F2C2B33B9008CA8E3 /* SignUp.swift */,
+				39F0D5612C2C5B94008CA8E3 /* Home.swift */,
 				39F0D5392C2B3144008CA8E3 /* Assets.xcassets */,
 				39F0D53B2C2B3144008CA8E3 /* Preview Content */,
 			);
@@ -262,6 +265,7 @@
 			files = (
 				39F0D5382C2B3141008CA8E3 /* ContentView.swift in Sources */,
 				39F0D5602C2B33B9008CA8E3 /* SignUp.swift in Sources */,
+				39F0D5622C2C5B94008CA8E3 /* Home.swift in Sources */,
 				39F0D5362C2B3141008CA8E3 /* Final_Project_House_C_Team_5App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
