@@ -2,7 +2,7 @@
 //  GoalSettingView.swift
 //  Final Project House C Team 5
 //
-//  Created by Zhifu Xie on 6/26/24.
+//  Created by Michelle Xie on 6/26/24.
 //
 
 import SwiftUI

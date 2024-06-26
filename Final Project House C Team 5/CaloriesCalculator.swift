@@ -1,18 +1,18 @@
 //
-//  ResourcesView.swift
+//  CaloriesCalculator.swift
 //  Final Project House C Team 5
 //
-//  Created by Michelle Xie on 6/26/24.
+//  Created by Zhifu Xie on 6/26/24.
 //
 
 import SwiftUI
 
-struct ResourcesView: View {
+struct CaloriesCalculator: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    ResourcesView()
+    CaloriesCalculator()
 }
