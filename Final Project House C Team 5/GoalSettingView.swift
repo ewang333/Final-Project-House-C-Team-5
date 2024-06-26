@@ -46,7 +46,7 @@ struct GoalSettingView: View {
                     }
                     .padding()
                     .background(Color.color3)
-                    .foregroundColor(.black)
+                    .foregroundColor(.white)
                     .font(.title)
                     .cornerRadius(10)
                     .shadow(radius: 1)
