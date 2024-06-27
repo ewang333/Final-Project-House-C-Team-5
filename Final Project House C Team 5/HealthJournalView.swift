@@ -63,9 +63,14 @@ struct HealthJournalView: View {
                         .padding(.horizontal, 20)
                     
                     Button("Submit"){
-                        Message = "Thank you for journaling! Today, your average BPM is \(AvgBPM), and you exercised for \(TimeExercised) hours! You're doing great! Keep up the good work! "
+                        Message = "Thank you for journaling! Today, your average BPM is \(AvgBPM), and you exercised for \(TimeExercised) hours! You're doing great! Keep up the good work!"
                     }
                     .font(.title2).padding(.vertical, 10).padding(.horizontal, 20).background(Color.color3).foregroundColor(.white)
+                    
+                    .padding(.bottom, 10)
+                    
+                    Text(Message)
+                    .font(.title2).padding(.vertical, 10).padding(.horizontal, 20).background(Color.color2).foregroundColor(.white)
                     
                     .padding(.bottom, 10)
                     .foregroundColor(.white)
@@ -73,6 +78,8 @@ struct HealthJournalView: View {
                     .fontWeight(.bold)
                     .cornerRadius(10)
                     .shadow(radius: 1)
+                    
+                    
                 }
             }
         }

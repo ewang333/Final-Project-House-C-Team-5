@@ -66,7 +66,7 @@ struct Home: View {
                             }
                         }
                     HStack{
-                        Text("BMI Calculator")
+                        Text("Health Calculations")
                             .fontWeight(.semibold)
                             .foregroundColor(.color4)
                             .padding(5)
