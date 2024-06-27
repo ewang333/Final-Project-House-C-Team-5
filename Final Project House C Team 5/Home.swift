@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Home: View {
+    @State private var showAlert = false
     var body: some View {
         NavigationStack{
             ZStack{
@@ -73,6 +74,22 @@ struct Home: View {
                             .fontWeight(.semibold)
                             .foregroundColor(.color4)
                             .padding()
+                    }
+                    Button(action: {
+                        self.showAlert = true
+                        }) {
+                            Text("Get started with some words of encouragement!")
+                                .padding()
+                                .background(Color.color3)
+                                .foregroundColor(.white)
+                                .font(.body)
+                                .fontWeight(.bold)
+                                .cornerRadius(10)
+                                .shadow(radius: 1)
+                        }
+                    
+                    .alert(isPresented: $showAlert) {
+                        Alert(title: Text("Encouragement"), message: Text("Success isn't always about 'greatness', it is about consistency. Consistent, hard work gains success. Greatness will come. -The Rock"), dismissButton: .default(Text("OK")))
                     }
                     }
                 }
