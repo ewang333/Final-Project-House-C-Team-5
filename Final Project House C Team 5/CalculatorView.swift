@@ -15,8 +15,10 @@ struct CalculatorView: View {
     var body: some View {
             NavigationStack {
                 VStack {
-                    NavigationLink(destination: ContentView()) {
-                        Image("HomeButton")
+                    NavigationLink(destination: Home()) {
+                        Image("home")
+                            .resizable()
+                            .frame(width: 85.0, height: 90.0)
                     }
                     Text("BMI Calculator")
                         .font(.largeTitle)

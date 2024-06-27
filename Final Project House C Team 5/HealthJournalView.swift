@@ -68,9 +68,6 @@ struct HealthJournalView: View {
                     .font(.title2).padding(.vertical, 10).padding(.horizontal, 20).background(Color.color3).foregroundColor(.white)
                     
                     .padding(.bottom, 10)
-                    
-                    Text(Message)
-                        .font(.title2).padding(.vertical, 20).padding(.horizontal, 20).background(Color.color2)
                     .foregroundColor(.white)
                     .font(.title)
                     .fontWeight(.bold)
